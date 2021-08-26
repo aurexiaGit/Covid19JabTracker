@@ -128,14 +128,16 @@ export default class Home extends Component {
                     <Row>
                         <Col>
                             <div style={{width:'600px',height:'500px'}}>
-                                <GraphCases data_graph={this.state.data_graph_case} value={'Deaths'}  />
+                                <GraphCases data_graph={this.state.data_graph_case} value={'Cases'}  />
                             </div>   
                         </Col>
 
                         <Col>
+
                             <div style={{width:'600px',height:'500px'}}>
-                                <GraphCases data_graph={this.state.data_graph_case} value={'Cases'}  />
-                            </div>   
+                                <GraphCases data_graph={this.state.data_graph_case} value={'Deaths'}  />
+                            </div>
+
                         </Col>
                          
                     </Row>

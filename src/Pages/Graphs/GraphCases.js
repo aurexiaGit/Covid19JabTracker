@@ -28,7 +28,7 @@ export class GraphCases extends Component {
 
 
         const data=this.props.data_graph.map(item=> {
-                if(value=="newCasesByPublishDate")
+                if(value=="Cases")
                 {
                     return item.newCasesByPublishDate
                 }
