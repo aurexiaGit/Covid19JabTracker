@@ -5,9 +5,10 @@ export default class Header extends Component {
     render() {
         return (
             <div>
-                <Navbar expand="lg" variant="dark" bg="dark">
+                <Navbar expand="lg" variant="light" style={{backgroundColor:"#023B59"}}>
                     <Container>
-                        <Navbar.Brand href="#">Covid-19 Jab Tracker</Navbar.Brand>
+                        <Navbar.Brand style={{color:'white'}}href="#">Covid-19 Data Tracker</Navbar.Brand>
+                        
                     </Container>
                 </Navbar>
             </div>
